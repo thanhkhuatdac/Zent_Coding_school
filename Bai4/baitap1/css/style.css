@@ -1,0 +1,109 @@
+.menu {
+	background-color: #54B042;
+	height: 48px;
+	padding-left: 0px;
+}
+
+.category {
+	border-right: 1px solid #AAD862;
+	border-left: 1px solid #AAD862;
+}
+
+.category a {
+	border-style: none!important;
+}
+
+menu>.item>a {
+	border: none;
+}
+
+.item {
+	list-style-type: none;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 48px;
+	position: relative
+}
+
+.item.logo img {
+	height: 48px;
+	width: 100px;
+}
+
+.item.logo a {
+	border-right: none;
+}
+
+.item a {
+	text-decoration: none;
+	color: #F5F6DD;
+	padding-right: 10px;
+	border-right: 1px solid #AAD862;
+
+}
+
+.submenu {
+	background-color: #AAD862;
+	display: none;
+}
+
+.item:hover>.submenu {
+	display: block;
+	padding-left: 0;
+	width: 205px;
+	left: 0;
+	position: absolute;
+}
+
+.submenu a {
+	border-right: none;
+	color: #739242;
+}
+
+.submenu .item i {
+	color: #F5F6DD;
+}
+
+.submenu li {
+	width: 185px;
+	margin-left: 0px;
+	border-bottom: 1px solid #78B43D;
+}
+
+.item.search a {
+	border-right: none;
+	border: 1px solid #F5F6DD;
+	padding: 7px;
+	border-radius: 15px;
+}
+
+.item.search {
+	margin-left: 140px;
+}
+
+.item.game a {
+	border-right: none;
+}
+
+.item.category:hover .submenu {
+	left: -110px;
+}
+
+.item.cate:hover {
+ 	background-color: #78B43D;
+}
+
+.item.cate:hover a {
+	color: #F5F6DD;
+}
+
+.item.cate.new-date:hover>.submenu {
+	left: 205px;
+	top: 12px;
+	background-color: #78B43D;
+}
+
+.item.cate.new-date>.submenu li {
+	border-bottom: 1px solid #AAD862;
+}
