@@ -1,0 +1,112 @@
+#form {
+	width: 500px;
+	height: 800px;
+	border: 1px solid #A9A9A9;
+	margin:auto;
+    border-radius: 7px;
+    box-shadow: 0px 2px 5px 2px;
+}
+
+.title-header {
+	text-align: left;
+	padding-left: 30px;
+	float: left;
+    margin-top: 50px;
+    color: #333333;
+}
+
+.icon {
+    float: right;
+    margin-top: 60px;
+    margin-right: 50px;
+    color: #C6C6C6;
+}
+
+.facebook {
+	display: block;
+	width: 340px;
+	height: 50px;
+	margin: auto;
+	margin-top: 30px;
+	background-color: #538AC5;
+   	border-radius: 7px;
+   	color: white;
+   	font-weight: bold;
+}
+
+.twitter {
+	display: block;
+	width: 340px;
+	height: 50px;
+	margin: auto;
+	margin-top: 40px;
+	background-color: #5DB1D3;
+    border-radius: 7px;
+    color: white;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.name, .email {
+	display: block;
+	width: 340px;
+	height: 44px;
+	margin: auto;
+	padding-left: 15px;
+	margin-top: 40px;
+	border-radius: 5px;
+	border: 2px solid #75AEE4;
+	font-size: 22px;
+}
+
+.name:hover, .email:hover {
+	box-shadow: 0px 0px 2px;
+}
+
+.question {
+	display: inline;
+	margin-left: 66px;
+}
+
+.quest-link {
+	margin-top: 20px;
+	font-size: 20px;
+	margin-bottom: 25px;
+	font-weight: 600;
+}
+
+.link {
+	color: #84AFD7;
+	text-decoration: none;
+}
+
+#footer {
+	margin-top: 30px;
+	font-size: 22px;
+}
+
+.forget {
+	/*display: inline;*/
+	margin-left: 15px;
+	/*width:60%;*/
+
+}
+
+.fot {
+	width:60%;
+	float:left;
+	margin-top: -17px;
+	color: #8A8A8C;
+	font-weight: bold;
+}
+.login {
+	float: right;
+	margin-right: 20px;
+	color: white;
+	background-color: #CA5B54;
+	margin-left: 41px;
+	width: 80px;
+    height: 40px;
+    border-radius: 7px;
+    margin-top: 25px;
+}

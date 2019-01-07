@@ -1,0 +1,51 @@
+.menu {
+	height: 53px;
+	background-color: #333333;
+	padding-left: 0px;
+
+}
+
+.menu .item {
+	list-style-type: none;
+	float: left;
+	line-height: 53px;
+	padding-right: 30px;
+	padding-left: 15px;
+	border-right: 1px solid white;
+	width: 60px;
+	position: relative;
+}
+
+.item a {
+	color: white;
+	text-decoration: none;
+}
+
+.menu .dropdown:hover .submenu{
+	background-color: #EB3324;
+}
+
+.submenu {
+	height: 150px;
+	width: 110px;
+	display: none;
+	background-color: #F9F9F9;
+	position: absolute;
+    left: -23px;
+    top: 53px;
+    box-shadow: 0px 0px 19px -4px;
+}
+
+.item:hover>.submenu{
+	display: block;
+}
+
+.submenu .item {
+	padding-left: 0px;
+	margin-left: 0px;
+	border-right: none;
+}
+
+.submenu .item a {
+	color:black;
+}
