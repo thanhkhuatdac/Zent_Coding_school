@@ -23,7 +23,7 @@ body {
 
 .menu {
 	height: 50px;
-	line-height: 50px
+	line-height: 50px;
 }
 
 .menu-header .item {
@@ -46,6 +46,7 @@ body {
 
 .item.border-last {
 	border-right: none;
+	clear: both;
 }
 
 .menu-header {
@@ -69,9 +70,13 @@ body {
 .logo {
 	background-color: #E7E7E7;
 	margin: 0px;
+	position: relative;
+	float: left;
+	width: 100%;
+    margin-top: -30px;
 }
 
-.logo img {
+.logo .big-img {
     margin-bottom: 10px;
     margin-left: 20%;
 }
@@ -82,4 +87,324 @@ body {
     margin-left: 69%;
     opacity: 0.5;
     font-weight: bold;
+}
+
+.logo .child-img {
+	position: absolute;
+	top: 28px;
+	right: 365px;
+	background-color: #999999;
+	border-radius: 0px 0px 0px 10px;
+}
+
+.wrapper {
+	background-color: white;
+	width: 80%;
+	margin: 0px auto;
+}
+
+.left {
+    float: left;
+    width: 58%;
+}
+
+.russia {
+	width: 100%;
+}
+
+.russia-img {
+	float: right;
+}
+
+.russia-content {
+	width: 50%;
+	float: left;
+}
+
+.russia-img {
+	width: 48%;
+}
+
+.russia-img img {
+	width: 300px;
+	height: 250px;
+}
+
+.russia-content p {
+	margin-top: 0px;
+}
+
+.block-second {
+	float: left;
+	width: 100%;
+}
+
+.football {
+	width: 28%;
+	float: left;
+	border-right: 1px solid #EDEDED;
+    padding-right: 65px;
+}
+
+.alo-alo {
+	width: 28%;
+	float: left;
+	border-right: 1px solid #EDEDED;
+    padding-right: 65px;
+    padding-left: 15px;
+}
+
+.block-hr {
+    width: 38px;
+    margin-left: 0px;
+    border: 1px solid red;
+}
+
+.hiv {
+	float: right;
+	width: 20%;
+}
+
+.div-three {
+	width: 100%;
+	float:left;
+}
+
+.paris {
+	width: 50%;
+	float: left;
+}
+
+.paris-hr {
+    width: 90%;
+    margin-left: 0px;
+}
+
+.mui-ten {
+	color: red;
+}
+
+.video {
+	width: 48%;
+	position: relative;
+	float: left;
+}
+
+.img-video {
+	float: left;
+	margin-right: 10px;
+}
+
+.title-video {
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
+
+.video .mutimedia {
+    margin-top: 3px;
+    color: #B91E1F;
+}
+
+.time {
+	position: absolute;
+	left: 3px;
+	bottom: 22px;
+}
+
+.time .volume {
+	background-color: white;
+	font-size: 20px;
+}
+
+.time .time-video {
+	background-color: #444444;
+	color: white;
+}
+
+.content-is {
+	float: left;
+	width: 48%;
+}
+
+.img-is {
+	float: right;
+	width: 48%;
+}
+
+.sport {
+	float: left;
+}
+
+.sport .img-sport {
+	float: left;
+    margin-right: 25px;
+    width: 35%;
+}
+
+.content-sport .title-sport {
+	margin-top: 0px;
+	margin-bottom: 4px;
+}
+
+.content-sport {
+	float: right;
+	width: 60%;
+}
+
+.hoc-vien-img {
+	float: left;
+	width: 48%;
+	position: relative;
+}
+
+.hoc-vien-subject {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.hoc-vien-img p {
+    margin-top: 2px;
+    font-size: 13px;
+}
+
+.camera {
+	position: absolute;
+	left: 1px;
+	bottom: 85px;
+	font-size: 25px;
+	background-color: white;
+    padding: 0px 4px;
+}
+
+.hoc-vien-img img {
+	width: 85%;
+}
+
+.right {
+	float: right;
+	width: 35%;
+	margin-top: 20px;
+}
+
+.right h3 {
+	text-align: center;
+}
+
+.ghost {
+	margin: 0px 45px;
+}
+
+.read {
+	background-color: #EDEDED;
+	height: 45px;
+	line-height: 45px;
+}
+
+.number {
+	width: 100%;
+}
+
+.number .content-number {
+	width: 90%;
+	float: left;
+}
+
+.number .number-number {
+	width: 10%;
+	float: right;
+	margin-top: 15px;
+	color: red;
+	text-align: center;
+}
+
+.buttonm {
+	background-color: #EDEDED;
+	width: 100%;
+}
+
+.fb {
+	width: 40%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 3px solid blue;
+    height: 35px;
+    float: left;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.twitter {
+	width: 40%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 3px solid #47C7FA;
+    height: 35px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.youtube {
+	width: 40%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 3px solid red;
+    height: 35px;
+    float: left;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.google {
+	width: 40%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 3px solid #DE5D4C;
+    height: 35px;
+    display: block;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.dich-vu {
+	text-align: center;
+}
+
+.rss {
+	width: 70%;
+	background-color: white;
+	margin: auto;
+	height: 45px;
+}
+
+.rss span {
+	padding-top: 25px;
+	display: block;
+}
+
+.footer {
+	width: 100%;
+	background-color: #3A3A3A;
+	color: white;
+}
+
+.block-footer {
+	width: 80%;
+	margin: auto;
+}
+
+.menu-footer .item {
+	display: inline;
+	padding-right: 50px;
+	padding-left: 10px;
+	border-right: 1px solid white;
+}
+
+.block-footer a {
+	color: white;
+	margin-right: 30px;
+}
+
+.block-footer h3 {
+    padding-top: 20px
 }
