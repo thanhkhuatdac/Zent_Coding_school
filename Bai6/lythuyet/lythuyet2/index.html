@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+	<style>
+		.box {
+			width: 25%;
+			height: 200px;
+			float: left;
+		}
+		.red {
+			background-color: red;
+		}
+		.blue {
+			background-color: blue;
+		}
+		.green {
+			background-color: green;
+		}
+		.yellow {
+			background-color: yellow;
+		}
+
+		/*
+		 * reponsive
+		*/
+		@media (max-width: 992px)  {
+			.box {
+				width: 50%;
+			}
+		}
+
+		@media (max-width: 500px)  {
+			.box {
+				width: 100%;
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<div class="box green">
+		
+	</div>
+	<div class="box red"></div>
+	<div class="box blue"></div>
+	<div class="box yellow"></div>
+</body>
+</html>

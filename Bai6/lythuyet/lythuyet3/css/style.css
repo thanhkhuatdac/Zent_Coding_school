@@ -1,0 +1,46 @@
+.menu {
+	height: 42px;
+	background-color: green;
+}
+
+.menu ul {
+	padding-left: 0px;
+}
+
+.item {
+	list-style: none;
+	float: left;
+	line-height: 42px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.item.item-first {
+	display: none;
+}
+.item a {
+	color: white;
+	text-decoration: none;
+}
+
+.menu .item:hover {
+	background-color: #9fa4ad;
+}
+
+.menu a:hover {
+	color: red;
+}
+
+@media (max-width: 649px) {
+	.menu .item {
+		display: none;
+	}
+
+	.item.item-first {
+		display: block;
+	}
+
+	.item.item-first:hover .item {
+		display: inline;
+	}
+}
