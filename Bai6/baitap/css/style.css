@@ -1,0 +1,169 @@
+.menu .item {
+	list-style: none;
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 45px;
+	line-height: 45px;
+	border-top: 1px solid #d0d6e0;
+	border-bottom: 1px solid #d0d6e0;
+}
+
+.item-img {
+	border-top: 1px solid white!important;
+	border-bottom: 1px solid white!important;
+	padding-left: 3px!important;
+	padding-right: 3px!important;
+}
+
+.menu {
+	height: 45px;
+    margin-top: 0px;
+}
+
+nav {
+	height: 45px;
+	margin: 0px auto;
+	width: 600px;
+}
+
+.item a {
+	text-decoration: none;
+    font-size: 21px;
+    opacity: 0.6;
+    font-weight: 600;
+    color: #7a7c7f;
+}
+
+section {
+	background-color: #dae8e7;
+	margin-top: 53px;
+}
+
+.title {
+	padding-top: 160px;
+	text-align: center;
+	width: 38%;
+	margin-left: 30%;
+	color: #18a3a0;
+	font-size: 25px;
+}
+
+section h4 {
+	text-align: center;
+	color: #7a7c7f;
+	opacity: 0.6;
+}
+
+.block {
+	width: 25%;
+	display: inline-block;
+    margin-right: 10px;
+    margin-left: 5%;
+}
+
+.block h1 {
+	color: #18a3a0;
+    display: inline;
+}
+
+.block img {
+	width: 100%;
+}
+
+.icon-user {
+    margin-left: 115px;
+    opacity: 0.6;
+}
+
+.content-block {
+	width: 80%;
+    text-align: center;
+    margin: 20px auto;
+    opacity: 0.6;
+}
+
+.about {
+	width: 80%;
+	margin: 0px auto;
+}
+
+.about-me {
+	width: 50%;
+	float: left;
+}
+
+.cool {
+	width: 30%;
+	float: right;
+}
+
+.cool span {
+	margin-right: 24px;
+	opacity: 0.7;
+}
+
+.footer {
+	background-color: #85bbe5;
+	width: 80%;
+	margin: 0px auto;
+}
+
+.footer h1 {
+	margin-left: 10%; 
+	padding-top: 5%; 
+	color: white;
+}
+
+.footer p {
+	margin-left: 10%; 
+	color: white;
+}
+
+.label-name, .label-email, .label-address {
+	display: block;
+	margin-left: 10%; 
+	color: white;
+}
+
+.input-name, .input-email {
+	margin-left: 10%;
+	width: 70%;
+	color: #7a7c7f;
+	height: 38px;
+	margin-bottom: 15px;
+	font-size: 18px;
+	padding-left: 5px;
+}
+
+.address {
+	margin-left: 10%;
+	width: 70%;
+	color: #7a7c7f;
+	margin-bottom: 15px;
+}
+
+.send {
+	margin-left: 10%;
+	margin-bottom: 15px;
+	background-color: #1479a0;
+	color: white;
+}
+
+@media (max-width: 960px) {
+	.block {
+		width: 25%;
+	}
+}
+
+@media (max-width: 700px) {
+	.block {
+		width: 40%;
+	}
+}
+
+@media (max-width: 480px) {
+	.block {
+		width: 100%;
+	}
+}
