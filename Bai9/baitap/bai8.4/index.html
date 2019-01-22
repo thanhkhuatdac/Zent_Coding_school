@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var n = parseInt(prompt('Nhập số N = '));
+		do {
+			var m = parseInt(prompt('Nhập số M = '));
+			if (n > m) {
+				alert("Vui lòng nhập lại vì N <= M!");
+			}
+		} while (n > m);
+		
+		do {
+			var k = parseInt(prompt('Nhập số K = '));
+			if (k > m || k <n) {
+				alert("Vui lòng nhập lại vì N <= K <= M!");
+			}
+		} while (k > m || k <n);
+		var sum = 0;
+		for (var i = n; i <= m; i++) {
+			if (i%k == 0) {
+				sum+=i;
+			}
+		}
+		document.write('Tổng các số chia hết cho '+k+ ' trong khoảng từ ' +n+' đến '+m+' là: '+sum);
+	</script>
+</body>
+</html>

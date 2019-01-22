@@ -1,0 +1,17 @@
+section {
+	border: 1px solid;
+	width: 50%;
+}
+
+section h1 {
+	padding-left: 10px;
+}
+
+section button {
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.content {
+	width: 50%;
+}

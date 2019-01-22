@@ -1,0 +1,56 @@
+body {
+	background-image: url('../img/logo.jpg');
+}
+
+section .tab {
+	background-color: #666666;
+	padding: 6px 15px;
+	color: white;
+	text-decoration: none;
+}
+
+.content {
+	background-color: white;
+	position: absolute;
+	left: 2px;
+	top: 38px;
+	width: 50%;
+	display: none;
+}
+
+.content h1 {
+	margin-top: 23px;
+    padding-left: 5px;
+}
+
+.content p {
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+
+section .tab-1 {
+	position: absolute;
+	top: 8px;
+	left: 5px;
+}
+
+section .tab-2 {
+	position: absolute;
+	top: 8px;
+	left: 82px;
+}
+
+section .tab-3 {
+	position: absolute;
+	top: 8px;
+	left: 158px;
+}
+
+.active {
+	display: block;
+}
+
+.style {
+	background-color: white!important;
+	color: black!important;
+}

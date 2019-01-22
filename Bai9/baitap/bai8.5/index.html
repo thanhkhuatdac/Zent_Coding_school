@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		do {
+			var n = parseInt(prompt('Nhập số n: '));
+			if (n <= 0) {
+				alert('Vui lòng nhập lại số nguyên dương n!');
+			}
+		} while (n <= 0);
+		var sum = 0;
+		for (var i = 1; i <= n; i++) {
+			sum += 1/i;
+		}
+		document.write('Tổng các số trong dãy 1 + 1/2 + 1/3 + … + 1/n với n = '+n+' là: '+sum);
+	</script>
+</body>
+</html>

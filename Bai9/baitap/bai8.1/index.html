@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var count = 0;
+		var list = '';
+		for (var i = 1; i <= 100; i++) {
+			if ((i%3 == 0) || (i%7) == 0) {
+				count++;
+				list = list + i + ',';
+			}
+		}
+		document.write('Số các số nguyên chia hết cho 3 hoặc 7 nằm trong đoạn từ 1 - 100 là: ' + count + '<br/>');
+		document.write("Danh sách các số đó là: " + list);
+	</script>
+</body>
+</html>

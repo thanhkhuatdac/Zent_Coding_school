@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		do {
+			var n = parseInt(prompt('Nhập số nguyên n = '));
+			if (n <= 0) {
+				alert("Vui long Nhap lai");
+			}
+		} while (n <= 0);
+		var sum = 0;
+		for (var i = 1; i <= n; i++) {
+			sum += i;
+		}
+		document.write('Tổng các số nguyên từ 1 đến ' + n + ' la: '+ sum);
+	</script>
+</body>
+</html>

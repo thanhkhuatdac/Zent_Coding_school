@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		do {
+			var n = parseInt(prompt('Nhập số nguyên n = '));
+			if (n <= 0) {
+				alert("Vui lòng nhập lại!");
+			}
+		} while (n <= 0);
+		var sum = 0;
+		var giaithua = 1;
+		for (var i = 1; i <= n; i++) {
+			giaithua = giaithua * i;
+			sum += i/giaithua;
+		}
+		document.write('Tổng các số 1 /1! + 2 /2! + ….+ n / n! với n = '+ n +' là: '+ sum);
+	</script>
+</body>
+</html>

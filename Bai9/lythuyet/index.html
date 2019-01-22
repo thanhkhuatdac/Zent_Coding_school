@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		// / in ra thong tin ket qua.
+		// var a = parseInt(prompt('Moi ban nhap thong tin so a: ', ''));
+		// var b = parseInt(prompt('Moi ban nhap thong tin so b: ', ''));
+		// var sum = a + b;
+		// alert(sum);
+		// document.write(sum);
+		// for (var i = 0; i < 4; i++) {
+		// 	document.write(i);
+		// 	for (var j = 5; j < 10; i++) {
+		// 		document.write(j);
+		// 		break;
+		// 	}
+		// }
+		do {
+			var n = parseInt(prompt('Nhap n = '));
+			if (n <= 0) {
+				alert("Vui long Nhap lai");
+			}
+		} while (n <= 0);
+		var tong = 0;
+		var giaithua = 1;
+		for (var i = 1; i <= n; i++) {
+			giaithua = giaithua * i;
+			tong += i/giaithua;
+		}
+		alert("tong la " + tong);
+	</script>
+</body>
+</html>
