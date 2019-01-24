@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="content">
+		<h5>Xin chào</h5>
+	</div>
+	<input type="button" value="replace" id="btn-replace">
+	<script type="text/javascript">
+		// lay button.
+		var button = document.getElementById('btn-replace');
+
+		// them su kien cho the.
+		button.addEventListener('click', function() {
+			// tao moi 1 the h1.
+			var h1 = document.createElement('h1');
+			h1.innerHTML = 'Zent group xin chào';
+
+			// lay the can replace.
+			var replace = document.getElementsByTagName('h5')[0];
+
+			//replace.
+			// document.getElementById('content').replaceChild(h1, replace);
+
+			// parentNode: tham chieu den node cha hien tai.
+			replace.parentNode.style.color = 'red';
+		});
+	</script>
+</body>
+</html>

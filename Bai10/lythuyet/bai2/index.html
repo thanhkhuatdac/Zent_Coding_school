@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="block">
+		<input type="text" id="input">
+		<button id="add">Add</button>
+	</div>
+	<table>
+		<tbody id="content">
+			
+		</tbody>
+	</table>
+	<a href="#" id="check-all" onclick="toggleChecked(true)">Check all</a>
+	<a href="#" id="uncheck-all" onclick="toggleChecked(false)">Uncheck all</a>
+	<script type="text/javascript">
+		// goi the button add.
+		var add = document.getElementById('add');
+		// goi the input.
+		var input = document.getElementById('input');
+		// goi the div co id=block.
+		var block = document.getElementById('block');
+
+		add.addEventListener('click', function() {
+			// lay gia tri the input.
+			var val = input.value;
+		
+			if (val == '') {
+				alert('vui lòng nhập nội dung');
+				return;
+			}
+			var text = `
+				<tr>
+					<td><input type="checkbox" name></td>
+					<td>`+ val +`</td>
+					<td><button onclick="edit("` +val+ `")">Edit</button></td>
+					<td><button onclick="delComment(this)">Del</button></td>
+				</tr>`;
+	
+			var content = document.getElementById('content');
+			// them du lieu vua nhap vao.
+			content.innerHTML += text;
+			input.value = '';
+		});
+
+		// function delete.
+		function delComment(a) {
+			a.parentNode.parentNode.remove();
+		}
+
+		function toggleChecked(status) {
+			var checkbox = document.querySelectorAll('input[type="checkbox"]');
+			if (checkbox.length) {
+				for (var i = 0; i < checkbox.length; i++) {
+					//truyen attribute checked cho input.
+					checkbox[i].checked = status;
+				}
+			}
+		}
+		
+		function edit(text) {
+
+		}
+		
+	</script>
+</body>
+</html>

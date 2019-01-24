@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<title>Document</title>
+</head>
+<body>
+	<div id="form">
+		<div id="header">
+			<h1 class="title-header">Login Form</h1>
+			<span class="icon"><i class="fa fa-times"></i></span>
+			<div style="clear: both;"></div>
+		</div>
+		<hr>
+		<div id="content">
+			<div class="div-name">
+				<label for="name">Họ và tên:</label>
+				<input class="name" type="" name="" placeholder="họ và tên">
+				<p class="message hidden">yêu cầu nhập đầy đủ họ tên</p>
+			</div>
+			<div class="gender">
+				<label for="name">Giới tính:</label>
+				<input type="radio" name="gender" value="male"> Nam&emsp;
+  				<input type="radio" name="gender" value="female"> Nữ<br>
+			</div>
+			<div class="div-email">
+				<label for="email">Email:</label>
+				<input class="email" type="" placeholder="email">
+				<p class="message hidden">yêu cầu nhập đầy đủ email</p>
+			</div>
+			<div class="div-phone">
+				<label for="email">Số điện thoại:</label>
+				<input class="phone" type="" placeholder="phone">
+				<p class="message hidden">yêu cầu nhập đầy đủ số điện thoại</p>
+			</div>
+			<div class="div-password">
+				<label for="password">Mật khẩu:</label>
+				<input class="password" type="password" placeholder="mật khẩu">
+				<p class="message hidden">yêu cầu nhập đầy đủ mật khẩu</p>
+			</div>
+			<div class="div-confirm-pass">
+				<label for="confirm-password">Xác nhận mật khẩu:</label>
+				<input class="confirm-password" type="" placeholder="xác nhận mật khẩu">
+				<p class="message hidden">yêu cầu xác nhận mật khẩu</p>
+			</div>
+		</div>
+		<div id="footer">
+			<button class="login" onclick="checkValidate()">Đăng ký</button>
+			<button class="del">Xóa trắng</button>
+		</div>
+		<script type="text/javascript" src="js/script.js"></script>
+	</div>
+</body>
+</html>

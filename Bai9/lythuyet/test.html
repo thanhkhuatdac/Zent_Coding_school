@@ -1,0 +1,26 @@
+<html>
+    <body>
+        <div id="TOP">
+            Xin chào các bạn!  
+        </div>
+       
+        <input type="button" value="Append" id="btn-append"/>
+       
+        <script language="javascript">
+          // Lấy button
+          var button = document.getElementById("btn-append");
+           
+          // Thêm sự kiện click cho button
+          button.addEventListener("click", function(){
+            // Tạo mới một thẻ h1
+            var h1 = document.createElement("h1");
+ 
+            // Thêm nội dung HTML vào thẻ h1
+            h1.innerHTML = "ZentGroup xin chao cac ban";
+ 
+            // Đưa thẻ h1 vào trong thẻ div có id=TOP
+            document.getElementById('TOP').appendChild(h1);
+          });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,131 @@
+body {
+	background-image: url('../img/3.jpg');
+}
+
+#form {
+	width: 80%;
+	/*height: 800px;*/
+	border: 1px solid #A9A9A9;
+	margin:auto;
+    border-radius: 7px;
+    box-shadow: 0px 2px 5px 2px;
+}
+
+.title-header {
+	text-align: left;
+	padding-left: 30px;
+	float: left;
+    margin-top: 50px;
+    color: #333333;
+}
+
+.icon {
+    float: right;
+    margin-top: 60px;
+    margin-right: 50px;
+    color: #C6C6C6;
+}
+
+.name, .email, .phone, .password, .confirm-password {
+	width: 380px;
+	height: 33px;
+	margin: auto;
+	padding-left: 15px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: 2px solid #75AEE4;
+	font-size: 18px;
+}
+
+.name:hover, .email:hover {
+	box-shadow: 0px 0px 2px;
+}
+
+#footer {
+	margin-top: 30px;
+	font-size: 22px;
+}
+
+.forget {
+	margin-left: 15px;
+}
+
+.fot {
+	width:60%;
+	float:left;
+	margin-top: -17px;
+	color: #8A8A8C;
+	font-weight: bold;
+}
+.login {
+	float: left;
+	margin-right: 20px;
+	color: white;
+	background-color: #CA5B54;
+	margin-left: 41px;
+	width: 80px;
+    height: 40px;
+    border-radius: 7px;
+    margin-top: 25px;
+}
+
+.del {
+	float: left;
+	margin-right: 20px;
+	color: white;
+	background-color: #CA5B54;
+	margin-left: 41px;
+	width: 80px;
+    height: 40px;
+    border-radius: 7px;
+    margin-top: 25px;
+}
+
+#content label {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.div-name, .div-phone, .div-email, .gender, .div-password, .div-confirm-pass {
+	margin-left: 10%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.div-name label {
+	margin-right: 25px;
+}
+
+.div-email label {
+	margin-right: 53px;
+}
+
+.gender label {
+	margin-right: 44px;
+}
+
+.div-password label {
+	margin-right: 25px;
+}
+
+.div-confirm-pass label {
+	margin-right: 30px;
+}
+
+.div-confirm-pass {
+	margin-left: 2%;
+}
+
+.message {
+	margin-left: 12%;
+    margin-top: 0px;
+    color: red;
+}
+
+.hidden {
+	display: none;
+}
+
+.div-confirm-pass .message {
+	margin-left: 19%;
+}
