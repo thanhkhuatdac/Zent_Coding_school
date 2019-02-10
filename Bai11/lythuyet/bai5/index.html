@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p>Select the car from the list</p>
+	<select id="mySelect" onchange="myFunction()">
+		<option value="1">Hà Nội</option>
+		<option value="2">Hồ Chí Minh</option>
+	</select>
+	<select name="" id="district"></select>
+	<script type="text/javascript">
+		function myFunction() {
+			var x = document.getElementById("mySelect").value;
+			var district = document.getElementById('district');
+			
+			if (x == 2) {
+				district.innerHTML = `<option value="1">Quận 1</option>
+									<option value="2">Quận 2</option>`;
+			} else if (x == 1) {
+				district.innerHTML = `<option value="1">Hai bà trưng</option>
+									<option value="2">thái hà</option>`;
+			}
+		}
+	</script>
+</body>
+</html>

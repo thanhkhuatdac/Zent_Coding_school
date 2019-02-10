@@ -1,0 +1,132 @@
+.logo {
+	width: 50%;
+	float: left;
+	margin-left: 10%;
+}
+
+.header-right button {
+    width: 90px;
+	height: 30px;
+	border-radius: 25px;
+}
+
+.header-right button.download {
+	width: 120px;
+	background-color: #04589B;
+	color: white;
+}
+
+.content {
+	text-align: center;
+	margin-top: 50px;
+	line-height: 25px;
+}
+
+.content h2 {
+	font-size: 30px;
+	color: #383a3d;
+}
+.content h1 {
+	font-size: 60px;
+	color: #383a3d;
+}
+
+.content h4 {
+    font-size: 22px;
+    color: #383a3d;
+}
+
+.for-free {
+	width: 150px;
+	background-color: #0887ED;
+	color: white;
+	border-radius: 25px;
+	height: 35px;
+}
+
+.pro-bg img {
+	width: 100%;
+	height: 450px;
+}
+
+.section-left {
+	width: 40%;
+	float: left;
+}
+
+.section-left img {
+	width: 100%;
+}
+
+.section-right {
+	float: right;
+	width: 60%;
+}
+
+.padding-left-25 {
+	padding-left: 25px;
+	padding-right: 90px;
+	line-height: 25px;
+}
+
+.section-right h2 {
+	font-size: 30px;
+	color: #383a3d;
+}
+
+.section-right h1 {
+	font-size: 60px;
+	color: #383a3d;
+}
+
+.item {
+	line-height: 10px;
+	list-style: none;
+}
+
+.item a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #383a3d;
+}
+
+.dot {
+	font-size: 100px;
+	color: #4286f4;
+}
+
+.section-right button {
+	width: 150px;
+	height: 35px;
+	border-radius: 25px;
+	margin-top: 25px;
+}
+
+.free-trial {
+    margin-left: 25px;
+    background-color: #0887ED;
+    color: white;
+}
+
+p.padding-left-25 {
+    font-size: 20px;
+}
+
+section {
+	background-color: #E6FCFF;
+	min-height: 567px;
+}
+
+.about {
+	text-align: center;
+	line-height: 25px;
+	color: #383a3d;
+}
+
+.about h2 {
+	font-size: 30px;
+}
+
+.about h1 {
+	font-size: 60px;
+}

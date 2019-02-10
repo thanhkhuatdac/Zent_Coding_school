@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style>
+		.content {
+			width: 200px;
+			height: 200px;
+			background-color: blue;
+			display: none;
+		}
+		button {
+			background-color: green;
+		}
+	</style>
+	<title>Document</title>
+</head>
+<body>
+	<h1 id="hello">Hello World</h1>
+	<div>
+		<ul>
+			<li class="item">
+				<span id="a">1</span>
+				<span>2</span>
+			</li>
+			<li><b>AAAS</b></li>
+		</ul>
+		<h1>BBBBBBBBB</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<li class="item">
+				<span>cccccccc</span>
+			</li>
+	</div>
+	<button onclick="clickMe()">click me</button>
+	<div class="content"></div>
+</body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+	$('#hello').css({'color': 'red', 'background': 'green'});
+	$('.item').parents('div').css('background', 'blue');
+	$('div').find('.item').children('#a').css('color', 'white');
+	$('div h1').next().css('color', 'red');
+
+	function clickMe() {
+		$('.content').slideToggle(2000, function() {
+			alert('done');
+		});
+	}
+</script>
+</html>
