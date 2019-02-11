@@ -20,6 +20,7 @@
 	text-align: center;
 	margin-top: 50px;
 	line-height: 25px;
+	clear: both;
 }
 
 .content h2 {
@@ -215,7 +216,7 @@ section {
 	z-index: 2;
 	border-radius: 20px;
 	background-color: white;
-	box-shadow: 5px 10px 5px 10px #dcdee2;
+	box-shadow: 1px 1px 40px 1px #6b7a91;
 }
 
 .form-header {
@@ -270,7 +271,7 @@ section {
 	width: 40%;
 	display: inline-block;
 	text-align: center;
-	box-shadow: 1px 1px 30px 1px #dcdee2;
+	box-shadow: 1px 1px 40px 1px #b5bfce;
 	margin-right: 3%;
 	position: relative;
 	margin-top: 70px;
@@ -307,4 +308,67 @@ section {
 	margin-top: 50px;
 	padding-left: 15px;
 	padding-right: 15px;
+}
+
+.footer {
+	background-color: #1A2A38;
+	color: white;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+	.header-right {
+		display: none;
+	}
+
+	.logo {
+		margin-left: 40%;
+		margin-bottom: 6%;
+	}
+
+	.section-left, .section-right {
+		width: 100%;
+	}
+
+	section {
+		min-height: 1564px;
+	}
+
+	.analysis {
+		width: 45%;
+		margin-bottom: 2%;
+	}
+
+	.analysis-first {
+		margin-left: 2%;
+	}
+
+	.block {
+		margin-left: 30%;
+	}
+
+	.form {
+		left: 169px;
+		top: 314px;
+		width: 70%;
+	}
+
+	.form-button {
+		width: 186px;
+	}
+
+	.buy {
+		height: 800px;
+
+	}
+
+	.user{
+		width: 100%;
+	}
+
+	.user-first {
+		margin-left: 0px;
+	}
 }

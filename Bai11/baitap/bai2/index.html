@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<title>Document</title>
+</head>
+<body>
+	<div class="to-do">
+		<h2>My todo list</h2>
+		<input class="input" type="text" placeholder="title...">
+		<button class="add">Add</button>
+	</div>
+	<!-- <div class="content">
+		<p>dfkjfnfd</p>
+	</div> -->
+	<table class="content">
+	<tr>
+		<td class="item" onclick="selectToDo(this)"><i class="fas fa-check"></i> 1</td>
+		<td class="icon"><i class="fas fa-times" onclick="delToDo(this)"></i></td>
+	</tr>
+	</table>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>
+</html>
