@@ -1,0 +1,144 @@
+.avatar {
+	background-image: url("../img/avatar.jpg");
+	height: 750px;
+}
+
+.favorite {
+	margin-top: 350px;
+}
+
+.favorite h1 {
+	font-size: 3.5rem;
+	color: white;
+	text-align: center !important;
+
+}
+
+.favorite hr {
+    width: 80px;
+	background-color: #f4623a;
+	height: 2px;
+}
+
+.favorite p {
+	font-size: 1.15rem !important;
+	color: rgba(255,255,255,.75) !important;
+	text-align: center !important;
+}
+
+.favorite a {
+	height: 45px;
+	border-radius: 10rem;
+	background-color: #f4623a;
+	border: none;
+	line-height: 32px;
+	font-weight: 600;
+}
+
+.get-start {
+	background-color: #F4623A;
+}
+
+.get-start h1 {
+	text-align: center;
+	color: white;
+	margin-top: 45px;
+}
+
+.get-start hr {
+	width: 80px;
+	background-color: white;
+	height: 2px;
+	margin-bottom: 50px;
+
+}
+
+.get-start p {
+	color: rgba(255,255,255,.5);
+	text-align: center !important;
+	margin-bottom: 40px;
+}
+
+.get-start a {
+	margin-bottom: 50px;
+	background-color: white;
+	border: none;
+	border-radius: 10rem;
+	color: black;
+	font-weight: 600;
+
+}
+
+.service h1 {
+	text-align: center;
+	margin-top: 45px;
+}
+
+.service hr {
+	width: 80px;
+	background-color: #F4623A;
+	height: 2px;
+	margin-bottom: 50px;
+}
+
+.service i {
+	font-size: 90px;
+	color: #F4623A;
+	margin-bottom: 12px;
+}
+
+.service .block {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.service h6 {
+	opacity: 0.8;
+}
+
+.download {
+	background-color: #343A40;
+}
+
+.download h1 {
+	text-align: center;
+	color: white;
+	margin-top: 45px;
+	margin-bottom: 30px;
+}
+
+.download a {
+	margin-bottom: 50px;
+	background-color: white;
+	border: none;
+	border-radius: 10rem;
+	color: #343A40;
+	font-weight: 600;
+}
+
+.get-in {
+	background-color: white;
+}
+
+.get-in h1 {
+	color: #212529;
+}
+
+.get-in p {
+	color: #212529;
+	opacity: 0.8;
+}
+
+.get-in hr {
+	background-color: #F4623A;
+}
+
+.icon {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.icon i {
+	font-size: 70px;
+	margin-bottom: 10px;
+}
