@@ -553,14 +553,13 @@ img {
         font-size: 14px;
         color: #fff;
         font-family: "Roboto", sans-serif;
-        margin-right: 32px;
+        margin-right: 0px;
         position: relative; }
         .banner_area .banner_inner .banner_content .page_link a:before {
-          content: "\e87a";
           font-family: 'Linearicons-Free';
           font-size: 14px;
           position: absolute;
-          right: -25px;
+          right: -20px;
           top: 54%;
           transform: translateY(-50%); }
         .banner_area .banner_inner .banner_content .page_link a:last-child {
@@ -3697,4 +3696,8 @@ h6 {
 
 .yellow {
   color: yellow;
+}
+
+.country img {
+  width: 20%;
 }
